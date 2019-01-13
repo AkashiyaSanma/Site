@@ -1,1 +1,23 @@
+title: negi
+email: santa.akashiya@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  by Santa
+baseurl:   # the subpath of your site, e.g. /blog
+url: http://www.xxx.com
+twitter_username: santa
+github_username:  akashiya
+
+markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+sass:
+  style: compact
+permalink: /:title/
+
+tags:
+
+paginate: 6
+paginate_path: "/blog/page:num/"
